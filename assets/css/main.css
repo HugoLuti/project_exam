@@ -75,3 +75,22 @@ footer{
     gap: 10px;
 }
 
+.reseaux-icons{
+    padding: 10px;
+}
+
+.mention{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.mention > a {
+    text-decoration: none;
+    color: #7b9db7;
+}
+
+.mention > a:hover {
+    font-size: 18px;
+    color: #fff;
+}
