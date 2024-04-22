@@ -3,9 +3,133 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>GuideSphère</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/nav.css">
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <a href="#"><img src="assets/img/logo.png" alt="Logo du site"></a>
+            <a href="view/forums.html">Les Forums</a>
+            <a href="view/guides.html">Les guides</a>
+            <a href="view/test.html">Les test</a>
+            <a href="view/login.html">Se connecter</a>
+        </nav>
+    </header>
+
+    <main>
+        <br>
+        <section class="news-title">
+            <div>
+                <h3>Les News</h3>
+            </div>
+            <div class="separateur"></div>
+        </section>
+        <br>
+        <section>
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="assets/img/news_nintendo.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Les premieère informations sur la prochaine switch</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/personne_agee.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>De plus en plus de personne agées se mettent aux jeux vidéos</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/retro_gaming.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Les prix des jeux vidéos rétro montent en fléche</h5>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Précedent</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Suivant</span>
+                </button>
+              </div>
+        </section>
+        <br>
+        <br>
+        <section class="guide-title">
+            <div>
+                <h3>
+                    Derniers guides en date
+                </h3>
+            </div>
+            <div class="separateur"></div>
+        </section>
+        <section class="cards-container">
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+
+              <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+
+              <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+        </section>
+        <br>
+        <br>
+        <section class="forums-title">
+            <div>
+                <h3>Les forums</h3>
+            </div>
+            <div class="separateur"></div>
+        </section>
+
+        <section class="container">
+            <div class="post-container"></div>
+            <div class="post-container"></div>
+            <div class="post-container"></div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="reseaux-title">
+            <div>
+                <h5>Nos réseaux</h5>
+            </div>
+            <div class="separateur2"></div>
+        </section>
+
+        <section>
+            <div class="reseaux-icons">
+                <a href="https://twitter.com/?lang=fr" target="_blank"><img src="assets/icons/icons-twitter.png" alt="Icone Twitter"></a>
+                <a href=""><img src="assets/icons/icons-facebook.png" alt=""></a>
+                <a href=""><img src="assets/icons/icons-rss.png" alt=""></a>
+                <a href=""><img src="assets/icons/icons-reddit.png" alt=""></a>
+            </div>
+        </section>
+    </footer>
 </body>
 </html>
