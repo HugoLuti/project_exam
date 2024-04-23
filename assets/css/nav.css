@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  width: auto;
+  min-height: 80px;
+  background-color: #cbd0ccc7;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+nav > a {
+  text-decoration: none;
+  color: #7b9db7;
+}
+
+nav > a:hover {
+  font-size: 18px;
+  color: #fff;
+}
