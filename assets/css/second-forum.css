@@ -1,0 +1,18 @@
+.post-container{
+    min-width: 954px;
+    background-color: hsla(0, 0%, 0%, 0.2);
+    margin: 20px auto;
+}
+
+.post{
+    background-color: rgba(123, 157, 183, 0.5);
+
+}
+
+.post:nth-child(even){
+    background-color: hsla(0, 0%, 100%, 0.5); 
+}
+
+.post-container td {
+    padding: 10px;
+}

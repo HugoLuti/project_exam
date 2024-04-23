@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #cbd0ccc7;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav > a {
+  text-decoration: none;
+  color: #7b9db7;
+}
+
+nav > a:hover {
+  font-size: 18px;
+  color: #fff;
+}
