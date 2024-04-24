@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+:root{
+  --main-color: #7b9db7;
+  --main-background-color: #f6f6f6;
+  --main-paragraphe-color: #272427;
+  --post-background-color: #d3d3d3c0;
+
+}
+
 header {
   background-color: #cbd0ccc7;
   display: flex;
@@ -27,4 +35,43 @@ nav > a {
 nav > a:hover {
   font-size: 18px;
   color: #fff;
+}
+
+footer{
+  background-color: hsla(0, 0%, 0%, 0.5);
+}
+
+.reseaux-title{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.reseaux-icons{
+  padding: 10px;
+}
+
+.mention{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.mention > a {
+  text-decoration: none;
+  color: #7b9db7;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.mention > a:hover {
+  font-size: 18px;
+  color: #fff;
+}
+
+.separateur2{
+  width: 50%;
+  height: 5px;
+  background-color: #7b9db7;
 }

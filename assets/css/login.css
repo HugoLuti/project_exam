@@ -1,0 +1,61 @@
+.login-form {
+  max-width: 950px;
+  min-height: 201px;
+  height: 120px;
+  background-color: aqua;
+  margin: 30px 30px;
+}
+
+section > form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-title{
+    padding: 10px;
+}
+
+.user-pseudo-input {
+  height: 40px;
+  border: solid 1px #ccc;
+  border-radius: 5px;
+  padding-left: 30px;
+}
+
+.user-pseudo {
+  position: relative;
+}
+
+.icon-user {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+::placeholder {
+  color: #ccc;
+}
+
+.user-password-input {
+  height: 40px;
+  border: solid 1px #ccc;
+  border-radius: 5px;
+  padding-left: 30px;
+}
+
+.user-password {
+  position: relative;
+}
+
+.icon-lock {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.form-submit-btn{
+    width: 201px;
+}
+
