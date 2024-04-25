@@ -4,18 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forum Genshin Impact</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../../assets/css/style.css">
     <link rel="stylesheet" href="../../assets/css/second-forum.css">
 </head>
 <body>
     <header>
-        <nav>
-            <a href="../../index.html"><img src="../../assets/img/logo.png" alt="Logo du site"></a>
+        <a href="../../index.html"><img src="../../assets/img/logo.png" alt="Logo du site"></a>
+
+        <nav class="classic-nav">
             <a href="view/forums.html">Les Forums</a>
             <a href="view/guides.html">Les guides</a>
             <a href="view/test.html">Les test</a>
             <a href="view/login.html">Se connecter</a>
         </nav>
+
+        <nav class="nav-dropdown">
+            <li class="nav-item">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Menu</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../../index.html">Accueil</a></li>
+                <li><a class="dropdown-item" href="../forums.html">Les Forums</a></li>
+                <li><a class="dropdown-item" href="../guides.html">Les Guides</a></li>
+                <li><a class="dropdown-item" href="../test.html">Les test</a></li>
+                <li><a class="dropdown-item" href="../login.html">Se connecter</a></li>
+              </ul>
+            </li>
+          </nav>
     </header>
 
     <main>
@@ -23,103 +39,119 @@
             <table class="post-container">
 
                 <tr class="post">
-                    <td>Sujet</td>
-                    <td>Auteur</td>
-                    <td>Date dernier msg</td>
+                    <td>
+                        <span class="subject">Sujet</span>
+                        <span class="author">Auteur</span>
+                        <span class="date">Date dernier msg</span>
+                     </td>
                 </tr>
 
                 <tr class="post">
-                    <td>Les meilleures armes dans Genshin</td>
-                    <td>Hugo</td>
-                    <td>Le 12/12/22</td>
+                    <td>
+                        <span class="subject">Les meilleures armes dans Genshin</span>
+                        <span class="author">Hugo</span>
+                        <span class="date">Le 12/12/22</span>
+                    </td>
                 </tr>
 
                 <tr class="post">
-                    <td>Les meilleurs personnages pour les abysses</td>
-                    <td>Jean_34</td>
-                    <td>Le 25/01/23</td>
+                    <td>
+                        <span class="subject">Les meilleurs personnages pour les abysses</span>
+                        <span class="author">Jean_34</span>
+                        <span class="date">Le 25/01/23</span>
+                    </td>
                 </tr>
 
                 <tr class="post">
-                    <td>Conseils pour terminer les abysses en spirale avec 36 étoiles</td>
-                    <td>ÉclipseObscur</td>
-                    <td>Le 30/11/22</td>
+                    <td>
+                        <span class="subject">Conseils pour terminer les abysses en spirale avec 36 étoiles</span>
+                        <span class="author">ÉclipseObscur</span>
+                        <span class="date">Le 30/11/22</span>
+                    </td>
                 </tr>
 
                 <tr class="post">
-                    <td>Théories sur les origines et le passé de Colei</td>
-                    <td>AstreInfini</td>
-                    <td>Le 18/05/22</td>
+                    <td>
+                        <span class="subject">Théories sur les origines et le passé de Colei</span>
+                        <span class="author">AstreInfini</span>
+                        <span class="date">Le 18/05/22</span>
+                    </td>
                 </tr>
 
                 <tr class="post">
-                    <td>Comment vaincre Raiden Shogun facilement ?</td>
-                    <td>FélinFurtif</td>
-                    <td>Le 29/08/23</td>
+                    <td>
+                        <span class="subject">Comment vaincre Raiden Shogun facilement ?</span>
+                        <span class="author">FélinFurtif</span>
+                        <span class="date">Le 29/08/23</span>
+                    </td>
                 </tr>
 
                 <tr class="post">
-                    <td>Les meilleurs personnages pour les débutants</td>
-                    <td>MysticDreamer</td>
-                    <td>Le 22/11/22</td>
+                    <td>
+                        <span class="subject">Les meilleurs personnages pour les débutants</span>
+                        <span class="author">MysticDreamer</span>
+                        <span class="date">Le 22/11/22</span>
+                    </td>
                 </tr>
 
                 <tr class="post">
-                    <td>Quel est votre personnage préféré et pourquoi ?</td>
-                    <td>EternalVoyager</td>
-                    <td>Le 18/04/22</td>
+                    <td>
+                        <span class="subject">Quel est votre personnage préféré et pourquoi ?</span>
+                        <span class="author">EternalVoyager</span>
+                        <span class="date">Le 18/04/22</span>
+                    </td>
                 </tr>
 
                 <tr class="post">
-                    <td>Le meilleur build pour Benett ?</td>
-                    <td>SilentObserver</td>
-                    <td>Le 04/02/23</td>
+                    <td>
+                        <span class="subject">Le meilleur build pour Benett ?</span>
+                        <span class="author">SilentObserver</span>
+                        <span class="date">Le 04/02/23</span>
+                    </td>
                 </tr>
 
                 <tr class="post">
-                    <td>Demande de conseils PC pour jouer à Genshin</td>
-                    <td>CosmicRoamer</td>
-                    <td>Le 10/09/22</td>
+                    <td>
+                        <span class="subject">Demande de conseils PC pour jouer à Genshin</span>
+                        <span class="author">CosmicRoamer</span>
+                        <span class="date">Le 10/09/22</span>
+                    </td>
                 </tr>
 
                 <tr class="post">
-                    <td>Vos avis sur la mise à jour 4.55 ?</td>
-                    <td>StarryWanderer</td>
-                    <td>Le 18/10/23</td>
+                    <td>
+                        <span class="subject">Vos avis sur la mise à jour 4.55 ?</span>
+                        <span class="author">StarryWanderer</span>
+                        <span class="date">Le 18/10/23</span>
+                    </td>
                 </tr>
 
                 <tr class="post">
-                    <td>Vos pronostics sur la prochaine région ajouté ?</td>
-                    <td>MoonlitJourney</td>
-                    <td>Le 21/01/23</td>
+                    <td>
+                        <span class="subject">Vos pronostics sur la prochaine région ajouté ?</span>
+                        <span class="author">MoonlitJourney</span>
+                        <span class="date">Le 21/01/23</span>
+                    </td>
                 </tr>
                 
                 <tr class="post">
-                    <td>Meilleur manière d'obtenir des moras ?</td>
-                    <td>EnigmaExplorer</td>
-                    <td>Le 15/07/23</td>
+                    <td>
+                        <span class="subject">Meilleur manière d'obtenir des moras ?</span>
+                        <span class="author">EnigmaExplorer</span>
+                        <span class="date">Le 15/07/23</span>
+                    </td>
                 </tr>
             </table>
         </section>
 
         <section>
-            <div class="new-post-container">
-                <div class="new-post-title">
-                    <h4>Nouveau sujet</h4>
-                    <form>
-                        <label for="subject"></label>
-                        <input type="text" placeholder="Saisir le titre du sujet" class="new-post-title-input">
-                    </form>
-                    <div class="separateur"></div>
-                    <div>
-                        <textarea class="new-post-content" placeholder="Pour que les discussions restent agréables, nous vous remercions de rester poli en toutes circonstances. En postant sur nos espaces, vous vous engagez à en respecter la charte d’utilisation. Tout message discriminatoire ou incistant à la haine sera supprimé et son auteur sanctionné."></textarea>
-                    </div>
-
-                    <div class="btn-poster">
-                        <h4>POSTER</h4>
-                    </div>
-                </div>
-            </div>
+           <div class="new-post-container">
+            <h3>Nouveau sujet</h3>
+            <input type="text" placeholder="Saisir le titre du sujet" class="new-post-title">
+            <div class="separateur"></div>
+            <textarea class="new-post-content" placeholder="Pour que les discussions restent agréables, nous vous remercions de rester poli en toutes circonstances. En postant sur nos espaces, vous vous engagez à en respecter la charte d'utilisation. Tout message discriminatoire ou incitant à la haine sera supprimé et son auteur sanctionné."></textarea>
+            <button type="submit" class="btn-new-post">Poster</button>
+           </div>
         </section>
     </main>
 </body>

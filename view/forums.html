@@ -13,12 +13,24 @@
     <header>
         <a href="../index.html"><img src="../assets/img/logo.png" alt="Logo du site"></a>
 
-        <nav>
+        <nav class="classic-nav">
             <a href="../index.html">Accueil</a>
             <a href="guides.html">Les guides</a>
             <a href="test.html">Les test</a>
             <a href="login.html">Se connecter</a>
         </nav>
+
+        <nav class="nav-dropdown">
+            <li class="nav-item">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Menu</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../index.html">Accueil</a></li>
+                <li><a class="dropdown-item" href="guides.html">Les Guides</a></li>
+                <li><a class="dropdown-item" href="test.html">Les test</a></li>
+                <li><a class="dropdown-item" href="login.html">Se connecter</a></li>
+              </ul>
+            </li>
+          </nav>
     </header>
 
     <main>

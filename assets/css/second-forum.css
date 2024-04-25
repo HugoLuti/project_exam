@@ -3,14 +3,12 @@ body{
 }
 
 .post-container{
-    min-width: 954px;
-    background-color: hsla(0, 0%, 0%, 0.2);
+    width: 80%;
     margin: 20px auto;
 }
 
 .post{
     background-color: rgba(123, 157, 183, 0.5);
-
 }
 
 .post:nth-child(even){
@@ -21,49 +19,72 @@ body{
     padding: 10px;
 }
 
-.new-post-container{
-    max-width: 954px;
-    background-color: var(--post-background-color);
-    margin: 20px auto;
+.subject{
+    width: 80%;
 }
 
-.new-post-title{
+.author{
+    width: 10%;
+}
+
+.date{
+    width: 10%;
+}
+
+.new-post-container{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    gap: 5px;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 20px 20px;
+    width: 80%;
+    background-color: var(--post-background-color);
+    margin: 20px auto;
+    padding: 20px;
+    gap: 30px;
+    border-radius: 5px;
+}
+
+.new-post-container > h3{
     color: var(--main-color)
 }
 
-.new-post-title-input{
-    width: 710px;
-    margin: 20px;
+.new-post-title{
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
 }
 
 .separateur{
-    width: 710px;
-    height: 1px;
-    background-color: black;
-    justify-content: center;
-    margin: 20px;
+    width: 90%;
+    border: solid 1px rgba(0, 0, 0, 0.2);
 }
 
 .new-post-content{
-    max-width: 710px;
-    min-width: 710px;
-    min-height: 66px;
+    width: 90%;
+    height: 120px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
 }
 
-.btn-poster{
-    text-align: center;
-    height: 30px;
-    width: 100px;
-    color: var(--main-paragraphe-color);
+.btn-new-post{
+    width: 90%;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-new-post:hover{
+    color: #fff;
+    border: none;
     background-color: var(--main-color);
-    margin: 10px;
-    padding: 5px;
+}
+
+@media screen and (max-width : 400px){
+    .post{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
 }
