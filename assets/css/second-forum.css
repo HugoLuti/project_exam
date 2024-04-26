@@ -16,26 +16,27 @@ body{
 }
 
 .post-container td {
+    display: flex;
+    flex-wrap: wrap;
     padding: 10px;
 }
 
 .subject{
-    width: 80%;
+    width: 60%;
 }
 
 .author{
-    width: 10%;
+    width: 20%;
 }
 
 .date{
-    width: 10%;
+    width: 20%;
 }
 
 .new-post-container{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     width: 80%;
     background-color: var(--post-background-color);
@@ -86,5 +87,28 @@ body{
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
+    }
+
+    .new-post-content{
+        height: 264px;
+    }
+
+    .post-container td {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .subject{
+        width: 100%;
+    }
+    
+    .author{
+        width: 100%;
+    }
+    
+    .date{
+        width: 100%;  
     }
 }

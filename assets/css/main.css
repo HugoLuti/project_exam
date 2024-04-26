@@ -1,66 +1,75 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+/* Polices */
+
+
+
+/*  */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.separateur{
-    width: 60%;
-    height: 5px;
-    background-color: #7b9db7;
+.separateur {
+  width: 60%;
+  height: 5px;
+  background-color: #7b9db7;
 }
 
-.separateur2{
-    width: 50%;
-    height: 5px;
-    background-color: #7b9db7;
+.separateur2 {
+  width: 50%;
+  height: 5px;
+  background-color: #7b9db7;
 }
 
-.news-title{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 10px;
-    gap: 10px;
+.news-title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  margin: 20px;
 }
 
-.guide-title{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 10px;
-    gap: 10px;
-    align-items: center;
+.guide-title {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  gap: 10px;
+  align-items: center;
+  margin: 20px;
 }
 
-.cards-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
 }
 
-.forums-title{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 10px;
-    gap: 10px;
-    align-items: center;
+.forums-title {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  gap: 10px;
+  align-items: center;
+  margin: 20px;
 }
 
-.container{
-    width: 80%;
-    height: 940px;
-    background-color: red;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    padding: 20px;
-    margin: 20px auto;
+.container {
+  width: 80%;
+  height: 940px;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  margin: 20px auto;
 }
 
-.post-container{
-    width: 80%;
-    height: 300px;
-    background-color: black;
+.post-container {
+  width: 80%;
+  height: 300px;
+  background-color: black;
 }

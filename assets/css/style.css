@@ -4,6 +4,32 @@
   box-sizing: border-box;
 }
 
+/* POLICES */
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.hind-regular {
+  font-family: "Hind", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hind-siliguri-regular {
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 :root{
   --main-color: #7b9db7;
   --main-background-color: #f6f6f6;
@@ -50,6 +76,7 @@ footer{
   flex-wrap: wrap;
   align-items: center;
   gap: 10px;
+  padding: 10px;
 }
 
 .reseaux-icons{
@@ -75,6 +102,7 @@ footer{
 }
 
 .separateur2{
+  margin: 10px;
   width: 50%;
   height: 5px;
   background-color: #7b9db7;

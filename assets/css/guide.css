@@ -1,0 +1,8 @@
+body{
+    background-color: var(--main-background-color);
+}
+
+.guide-caracters{
+    width: 80%;
+    background-color: chartreuse;
+}
